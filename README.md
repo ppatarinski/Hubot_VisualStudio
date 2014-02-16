@@ -6,6 +6,13 @@ This version is designed to be deployed on [Heroku][heroku]. This README was gen
 
 [heroku]: http://www.heroku.com
 
+### Getting started
+
+1. Download and install Node.js http://nodejs.org/download/
+2. Install Node.js Tools for Visual Studio https://nodejstools.codeplex.com/
+3. Edit SetHubotSettings.ps1 to fit your needs and run it with admin privs (The script will set the environment variables used by Hubot)
+
+
 ### Testing Hubot Locally
 
 You can test your hubot by running the following.
