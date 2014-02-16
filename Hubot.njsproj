@@ -29,8 +29,6 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="external-scripts.json" />
-    <Content Include="hubot-scripts.json" />
     <Content Include="node_modules\hubot\bin\hubot.coffee" />
     <Content Include="node_modules\hubot\index.coffee" />
     <Content Include="node_modules\hubot\index.js.map" />
@@ -56,7 +54,6 @@
     <Content Include="node_modules\hubot\src\user.js.map" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="README_SETUP.txt" />
     <Content Include="scripts\advice.coffee" />
     <Content Include="scripts\advice.js.map" />
     <Content Include="scripts\auth.coffee" />
