@@ -5,9 +5,11 @@ It is specifically refactored to work with Visual Studio and to allow you to deb
 
 ### Getting started
 
-1. Download and install Node.js http://nodejs.org/download/
-2. Install Node.js Tools for Visual Studio https://nodejstools.codeplex.com/
-3. Edit SetHubotSettings.ps1 to fit your needs and run it with admin privs (The script will set the environment variables used by Hubot)
+1. Install Node.js http://nodejs.org/download/
+2. Install Visual Studio 2013 http://www.visualstudio.com/ 
+3. Install Node.js Tools for Visual Studio https://nodejstools.codeplex.com/
+4. Install Web Essentials for Visual Studio 2013 (This extension lets you transpile coffee script) http://visualstudiogallery.msdn.microsoft.com/56633663-6799-41d7-9df7-0f2a504ca361
+5. Edit SetHubotSettings.ps1 to fit your needs and run it with admin privs (The script will set the environment variables used by Hubot)
 
 ### Debugging Hubot using Visual Studio
 
