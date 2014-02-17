@@ -11,12 +11,20 @@ It is specifically refactored to work with Visual Studio and to allow you to deb
 4. Install Web Essentials for Visual Studio 2013 (This extension lets you transpile coffee script) http://visualstudiogallery.msdn.microsoft.com/56633663-6799-41d7-9df7-0f2a504ca361
 5. Edit SetHubotSettings.ps1 to fit your needs and run it with admin privs (The script will set the environment variables used by Hubot)
 6. Open Node.js Command Prompt and run : 
-	%npm install -g hubot coffee-script
-This will add both hubot and coffee-script as global node.js references
-7. Navigate to C:\Users\"YourUsername"\AppData\Roaming\npm\node_modules\hubot\src
-8. Modify line 213 of the robot.coffee file to : 
-	if ext is '.coffee'
-This will only include coffee scripts when you run Hubot
+
+		npm install -g hubot coffee-script
+
+	This will add both hubot and coffee-script as global node.js references
+
+7. Navigate to 
+
+		C:\Users\"YourUsername"\AppData\Roaming\npm\node_modules\hubot\src
+
+	Modify line 213 of the robot.coffee file to : 
+	
+		if ext is '.coffee'
+		
+	This will only load coffee scripts when you run Hubot (instead of coffee script and javascript, which results in duplicates)
 
 ### Debugging Hubot using Visual Studio
 
